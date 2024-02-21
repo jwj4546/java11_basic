@@ -1,9 +1,0 @@
-package org.kh.app;
-//조건문 if~else~ : if(조건식) {조건이 참일 때 실행문;} else {조건이 거짓일 때 실행문}
-public class Condition2 {
-
-	public static void main(String[] args) {
-		char sel = '1';
-	}
-
-}

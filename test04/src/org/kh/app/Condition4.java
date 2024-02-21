@@ -17,41 +17,26 @@ public class Condition4 {
 		 67~70이면, 'D+', 63~66이면 'D0', 60~62이면 'D-'
 		 60미만은 F
 		 */
-		if (point >=  90) 
-			if(point >= 97) {
-				result = "A+";			
-		}	else if (point >= 93) {
-			result = "A0";
+		if (point >= 90) {
+			result = "A";
+		}
+			else if (point >= 80) {
+				result = "B";
+		}	else if (point >= 70) {
+				result = "C";
+		}	else if (point >= 60) {
+				result = "D";
 		}	else {
-			result = "A-";
+				 result = "F";
 		}
-		else if (point >=  80) 
-			if(point >= 87) {
-					result = "B+";			
-		}	else if (point >= 83) {
-				result = "B0";
-		}	else {
-				result = "B-";
+		if ((point % 10 >= 7 && point >= 60) || point == 100) {
+			result = result + "+";
+		}	else if (point % 10 >= 3 && point >= 60) {
+				result = result + "0";
+		}	else if (point % 10 >= 0 && point >= 60) {
+				result = result + "-";
 		}
-		else if (point >=  70) 
-			if(point >= 77) {
-				result = "C+";			
-		}	else if (point >= 73) {
-			result = "C0";	
-		}	else {
-			result = "C-";
-		}
-		else if (point >=  60) 
-			if(point >= 67) {
-				result = "D+";			
-		}	else if (point >= 63) {
-			result = "D0";
-		}	else {
-			result = "D-";
-		}
-		else {
-			result = "F";
-		}
+		
 		switch(result) {
 			case "A+" : award = "학업우수상";
 				break;
