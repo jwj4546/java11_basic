@@ -1,0 +1,21 @@
+package org.kh.java;
+
+public class Varialbe4 {
+
+	public static void main(String[] args) {
+		String name = "조우진";
+		short age = 29;
+		float height = 186.5f;
+		double weight = 75.8;
+		char init = 'c';
+		
+		System.out.println("이름 : \'"+name+"\'");
+		/* 이스케이프 문자
+		 \n : 줄바꿈
+		 \t : 탭
+		 \\ : \를 출력
+		 \' : 
+		 */
+	}
+
+}
