@@ -2,7 +2,7 @@ package org.kh.app;
 
 import java.util.Scanner;
 //조건문 다단계 if  
-public class Condition4 {
+public class Condition04 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);					//키보드로부터 입력 받는 scanner 객체
 		System.out.print("점수 입력[0-100] :");
@@ -29,11 +29,11 @@ public class Condition4 {
 		}	else {
 				 result = "F";
 		}
-		if ((point % 10 >= 7 && point >= 60) || point == 100) {
+		if (point % 10 >= 7 || point == 100) {
 			result = result + "+";
-		}	else if (point % 10 >= 3 && point >= 60) {
+		}	else if (point % 10 >= 3) {
 				result = result + "0";
-		}	else if (point % 10 >= 0 && point >= 60) {
+		}	else if (point % 10 >= 0) {
 				result = result + "-";
 		}
 		
