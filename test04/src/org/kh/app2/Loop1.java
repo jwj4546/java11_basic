@@ -1,7 +1,6 @@
 package org.kh.app2;
 //반복문 : for, while, do~while
 public class Loop1 {
-
 	public static void main(String[] args) {
 		int n = 0;
 		/*n = n + 1;
@@ -29,7 +28,6 @@ public class Loop1 {
 		n = n + 1;
 		n = n + 1;
 		n = n + 1;
-		
 		
 		 * for(초기식;조건식;증감식) {반복해야하는 문장;}
 		*/

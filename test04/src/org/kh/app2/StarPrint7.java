@@ -10,6 +10,6 @@ public class StarPrint7 {
 				for(int m=0;m<=n;m++) {
 					System.out.print("*");
 				}	System.out.println();
-	}
+			}
 	}	
 }

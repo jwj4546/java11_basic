@@ -11,6 +11,5 @@ public class StarPrint4 {
 			}
 			System.out.println();	
 		}
-
 	}
 }
