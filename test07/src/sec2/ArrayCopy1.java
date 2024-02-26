@@ -36,7 +36,5 @@ public class ArrayCopy1 {
 		for(int i=0;i<arr3.length;i++) {
 			System.out.println(i+": "+arr3[i]);
 		}
-	
 	}
-		
 }

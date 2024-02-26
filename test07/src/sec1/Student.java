@@ -67,6 +67,7 @@ public class Student {
  		System.out.printf("%d\t%d\t%d\t%d\t%d\t%.1f\t%s\n",this.num, this.kor, this.eng, this.mat, this.tot(), this.avg(), this.grade());
 	}	
  	void print() {
- 		System.out.println(this.num+"\t"+this.kor+"\t"+this.eng+"\t"+this.mat+"\t"+this.tot()+"\t"+this.avg()+"\t"+this.grade());
+ 		System.out.printf("%d\t%d\t%d\t%d\t%d\t%.1f\t%s\n",this.num,this.kor,
+				this.eng,this.mat,this.tot(),this.avg(),this.grade());
  	}
 }
