@@ -24,5 +24,4 @@ public class Book {
 	public String toString() {
 		return "Book [bookName=" + bookName + ", author=" + author + "]";
 	}
-	
 }
