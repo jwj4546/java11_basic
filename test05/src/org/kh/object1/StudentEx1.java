@@ -15,7 +15,5 @@ public class StudentEx1 {
 		kim.eng = 88;
 		kim.mat = 99;
 		kim.resulting();
-		
 	}
-		
 }

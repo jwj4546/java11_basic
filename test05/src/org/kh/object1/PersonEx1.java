@@ -9,7 +9,6 @@ public class PersonEx1 {
 		cho.job = "studnet";
 		cho.running();
 		
-		
 		Person lee= new Person();
 		lee.running();
 	}

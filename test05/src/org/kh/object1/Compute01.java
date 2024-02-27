@@ -1,7 +1,7 @@
 package org.kh.object1;
 
 public class Compute01 {
-	void fn1() {							//반환(x), 매개변수(x)
+	void fn1() {								//반환(x), 매개변수(x)
 		System.out.println("function");
 	}
 	void fn2(int i) {						//반환(x), 매개변수(o)

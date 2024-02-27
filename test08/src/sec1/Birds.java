@@ -20,8 +20,7 @@ public class Birds extends Animal {
 	}
 
 	@Override
-	public String toString() {
-		return "Birds [wings=" + wings + "]";
+	public String print() {
+		return "Birds wings=["+wings+"], name=["+super.getName()+"]";
 	}
-	
 }

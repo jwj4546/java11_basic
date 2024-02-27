@@ -13,7 +13,7 @@ public class Mammal extends Animal {			//Animal로 부터 모든 멤버를 상�
 
 	@Override
 	public String print() {
-		return "Mammal leg=" + leg + "]";
+		return "Mammal leg=[" + leg + "], name=["+super.getName()+"]";
 	}
 	
 }
