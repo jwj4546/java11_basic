@@ -1,25 +1,12 @@
-<<<<<<< HEAD
-INDEX VERSION 1.134+D:\cho\java\.metadata\.plugins\org.eclipse.jdt.core
-479335008.index
-2241545178.index
-4126259029.index
-=======
 INDEX VERSION 1.134+F:\cho\java\.metadata\.plugins\org.eclipse.jdt.core
 479335008.index
+306813522.index
 3823697542.index
 2197194691.index
 1828251375.index
 469751417.index
 2241545178.index
->>>>>>> 231f12646e03a8f6368af877dc161be53350b0d8
 1699654340.index
 4070339404.index
-2197194691.index
 1865797976.index
-<<<<<<< HEAD
-306813522.index
-469751417.index
-1828251375.index
-=======
 4126259029.index
->>>>>>> 231f12646e03a8f6368af877dc161be53350b0d8
