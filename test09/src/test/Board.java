@@ -8,6 +8,14 @@ public class Board {
 	private String resdate;
 	private int visited;
 	
+	public Board(int bno, String title, String uname, String content, String resdate, int visited) {
+		this.bno = bno;
+		this.title = title;
+		this.uname = uname;
+		this.content = content;
+		this.resdate = resdate;
+		this.visited = visited;
+	}
 	public int getBno() {
 		return bno;
 	}
@@ -44,10 +52,4 @@ public class Board {
 	public void setVisited(int visited) {
 		this.visited = visited;
 	}
-	@Override
-	public String toString() {
-		return "Board [bno=" + bno + ", title=" + title + ", uname=" + uname + ", content=" + content + ", resdate="
-				+ resdate + ", visited=" + visited + "]";
-	}
-	
 }

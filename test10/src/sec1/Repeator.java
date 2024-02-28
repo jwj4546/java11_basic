@@ -8,7 +8,6 @@ public abstract class Repeator implements Calculator {
 	public int add(int num1, int num2) {
 		return num1+num2;
 	}
-
 	@Override
 	public int substract(int num1, int num2) {
 		int su = 0;
@@ -16,7 +15,5 @@ public abstract class Repeator implements Calculator {
 		else su = num2-num1;
 		return su;
 	}
-
 	abstract int power(int num1, int num2);
-	
 }

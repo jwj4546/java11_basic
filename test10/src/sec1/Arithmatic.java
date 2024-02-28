@@ -13,7 +13,6 @@ public class Arithmatic extends Repeator {
 		else su = num2/num1;
 		return su;
 	}
-	
 	@Override
 	int power(int num1, int num2) {
 		int tmp= num1;
@@ -25,5 +24,4 @@ public class Arithmatic extends Repeator {
 	public void print() {
 		System.out.println("계산기, 중계기, 연산기를 구현합니다.");
 	}
-	
 }

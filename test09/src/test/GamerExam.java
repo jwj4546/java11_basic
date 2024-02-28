@@ -3,21 +3,21 @@ package test;
 public class GamerExam {
 
 	public static void main(String[] args) {
-		Gamer ama; 
-		ama = new Amateur();
-		ama.run(50);
-		ama.jump(2);
-		ama.turn(50);
-		ama.show("밍밍");
+		Gamer gamer; 
+		gamer = new Amateur();
+		gamer.run(50);
+		gamer.jump(2);
+		gamer.turn(50);
+		gamer.show("밍밍");
 		
 		System.out.println();
 		
-		Gamer pro;
-		pro = new Progamer();
-		pro.run(100);
-		pro.jump(5);
-		pro.turn(100);
-		pro.show("Chovy");
+		
+		gamer = new Progamer();
+		gamer.run(100);
+		gamer.jump(5);
+		gamer.turn(100);
+		gamer.show("Chovy");
 	}
 
 }

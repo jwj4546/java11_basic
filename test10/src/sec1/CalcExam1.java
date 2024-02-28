@@ -1,7 +1,6 @@
 package sec1;
 
 public class CalcExam1 {
-
 	public static void main(String[] args) {
 		int num1 = 1;
 		int num2 = 20;
