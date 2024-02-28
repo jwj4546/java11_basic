@@ -5596,7 +5596,11 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2024-02-27 18:29:07.112 -----------------------------------------------
+=======
+!SESSION 2024-02-27 22:58:35.181 -----------------------------------------------
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 eclipse.buildId=4.30.0.20231201-1200
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
@@ -5604,6 +5608,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.emf.ecore 2 0 2024-02-27 18:29:35.346
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
@@ -5617,6 +5622,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE Unable to load resource file:/D:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/D:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/D:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+=======
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-27 22:59:06.524
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-27 22:59:06.878
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-27 22:59:08.187
+!MESSAGE Logback config file: F:\cho\java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-02-27 22:59:08.831
+!MESSAGE Unable to load resource file:/F:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/F:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/F:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
@@ -5642,7 +5662,11 @@ org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+<<<<<<< HEAD
 Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/D:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/D:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+=======
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/F:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/F:/cho/java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
@@ -5666,7 +5690,11 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/D:/cho/java/.metadata/.p
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
 	... 23 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2024-02-27 18:29:41.361
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-02-27 22:59:08.835
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 !MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
 !STACK 0
 java.lang.Exception
@@ -5691,9 +5719,15 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2024-02-27 18:29:50.471
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2024-02-27 18:29:50.471
+=======
+!ENTRY org.eclipse.jface 2 0 2024-02-27 22:59:12.280
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-27 22:59:12.280
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -5712,7 +5746,11 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2024-02-27 18:29:52.178
+=======
+!ENTRY org.eclipse.ui 4 0 2024-02-27 22:59:13.321
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 !MESSAGE Unable to restore working set state.
 !STACK 1
 org.eclipse.ui.WorkbenchException: 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
@@ -5837,7 +5875,11 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 2; 요소
 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:110)
 	... 103 more
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.ui 4 0 2024-02-27 18:29:52.178
+=======
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-02-27 22:59:13.322
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 !MESSAGE 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 2; 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
@@ -5960,14 +6002,24 @@ org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 2; 요소 콘텐츠�
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2024-02-27 18:29:53.988
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-27 22:59:14.882
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wooji'. If this is
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.debug.ui 4 120 2024-02-27 18:31:16.311
+=======
+!ENTRY org.eclipse.debug.ui 4 120 2024-02-27 22:59:48.608
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 !MESSAGE Error logged from Debug UI: 
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
@@ -5997,7 +6049,11 @@ org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; 요소 콘텐츠�
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+<<<<<<< HEAD
 !SESSION 2024-02-28 08:58:59.684 -----------------------------------------------
+=======
+!SESSION 2024-02-28 00:27:59.503 -----------------------------------------------
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 eclipse.buildId=4.30.0.20231201-1200
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
@@ -6005,6 +6061,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.emf.ecore 2 0 2024-02-28 08:59:25.890
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
@@ -6017,6 +6074,20 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !ENTRY org.eclipse.jface 2 0 2024-02-28 08:59:46.570
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2024-02-28 08:59:46.570
+=======
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-28 00:28:03.045
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-28 00:28:03.459
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-28 00:28:04.945
+!MESSAGE Logback config file: F:\cho\java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-28 00:28:07.833
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-28 00:28:07.833
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -6035,6 +6106,7 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.debug.ui 4 120 2024-02-28 08:59:50.143
 !MESSAGE Error logged from Debug UI: 
 !STACK 0
@@ -6144,6 +6216,11 @@ org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; 요소 콘텐츠�
 !ENTRY org.eclipse.egit.ui 2 0 2024-02-28 09:02:59.262
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-28 00:28:13.887
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wooji'. If this is
+>>>>>>> d8341a20352711735d9824c46f210567ee3db2a7
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
