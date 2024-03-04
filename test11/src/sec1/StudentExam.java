@@ -1,7 +1,6 @@
 package sec1;
 
 public class StudentExam {
-
 	public static void main(String[] args) throws CloneNotSupportedException {
 		Student su1 = new Student();
 		Student su2 = new Student();

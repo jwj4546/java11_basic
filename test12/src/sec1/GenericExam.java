@@ -16,6 +16,5 @@ public class GenericExam {
 		
 		Generic1<String> str = new Generic1<>();
 		str.setField1("조우진");
-		
 	}
 }

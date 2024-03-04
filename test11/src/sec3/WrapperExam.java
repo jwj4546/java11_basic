@@ -1,7 +1,6 @@
 package sec3;
 
 public class WrapperExam {
-
 	public static void main(String[] args) {
 		int a = 10;					//기본 타입 선언
 		Integer b = a;					//참조형 타입 선언(참조형에 기본형 데이터 대입) : Wrapping, Boxing

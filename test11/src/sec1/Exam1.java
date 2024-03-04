@@ -16,7 +16,5 @@ public class Exam1 {
 		System.out.println("a==c : "+(a==c));					//기본형과 참조형의 비교는 값 비교
 		System.out.println("c==d : "+(c==d));					//참조형과 참조형의 비교는 주소 비교
 		System.out.println("c equals d : "+(c.equals(d)));					//참조형의 비교는 equals로 해야함
-		
-		
 	}
 }
