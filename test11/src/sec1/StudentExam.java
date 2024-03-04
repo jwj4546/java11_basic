@@ -14,7 +14,7 @@ public class StudentExam {
 		System.out.println(su1.hashCode());					//해시코드
 		System.out.println(su3.equals(su1));					//su3과 su1의 주소가 서로 달라 false로 출력
 		
-		//System.out.println(su3.equals(su1));					//Stuent 클래스에 equals를 모든 멤버 필드(변수)에 대하여 비교하는 오버라이딩 해주면 ,값 비교가 가능
+		//System.out.println(su3.equals(su1));					//Stuent 클래스에 equals를 모든 멤버 필드(변수)에 대하여 비교하는 오버라이딩을 해주면 ,값 비교가 가능
 		System.out.println(su3.equals(su1));
 	}
 }

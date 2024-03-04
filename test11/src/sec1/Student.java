@@ -35,7 +35,7 @@ public class Student {
 		clone.sno = this.sno;
 		return clone;
 	}
-	//아래 부분처럼 
+	//아래 부분처럼 equals 메서드를 오버라이딩하게 되면, 값 비교가 가능해짐
 	@Override
 	public boolean equals(Object obj) {
 		if(obj instanceof Student) {
@@ -43,11 +43,12 @@ public class Student {
 			if(su1.name == this.name && su1.sno == this.sno) {
 				return true;
 			}	else {
-				return false;
-			}	
+				return true;
+			}
 		}	else {
-			return false;
+			return true;
 		}
 	}
 }
+
 

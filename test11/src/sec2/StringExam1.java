@@ -7,19 +7,19 @@ public class StringExam1 {
 		Integer su1 = 1004;
 		String su2 = "1004";
 		//String su3 = new String(su1);
-		String su3 = String.valueOf(su1);
+		String su3 = String.valueOf(su1);					//* 문자열로 변경
 		System.out.println("su1 equals su2 : "+su1.equals(su2));
-		System.out.println("su2 equals su3 : "+su2.equals(su3));
+		System.out.println("su2 equals su3 : "+su2.equals(su3));					//* 문자열 및 객체 비교
 		
 		String str = "강범준/박동빈/이성하/조대신/배곤희/권민지";
 		String[] names = new String[6];
-		names = str.split("/");					//문자열 분리
+		names = str.split("/");					//* 문자열 분리
 		for(String s: names) {
 			System.out.println(s);
 		}
 		
 		String str2;
-		str2 = String.join("/", names);					//문자열 합치기
+		str2 = String.join("/", names);					//* 문자열 합치기
 		System.out.println(str2);
 		
 		String data = "			ivE\'s beaUty grOup\nnewJeans is girlGroup Top	";
@@ -38,11 +38,11 @@ public class StringExam1 {
 		System.out.println("모두 대문자로 변환하여 up에 저장 : "+up);
 		String down = data.toLowerCase();					//모두 소문자로 변환하여 down에 저장
 		System.out.println("모두 소문자로 변환하여 down에 저장 : "+down);
-		String sub1 = data.substring(22, 30);					//공백을 제거하고, 20번째 글자부터 29번째만 추출
+		String sub1 = data.substring(22, 30);					//* 공백을 제거하고, 20번째 글자부터 29번째만 추출
 		System.out.println("공백을 제거하고, 22번째 글자부터 29번째만 추출하여 sub1에 저장 : "+sub1);
 		String sub2 = data.replace("newJeans", "kepler");					//newJeans의 단어를 Kepler로 변경하여 sub2에 저장
 		System.out.println("newJeans의 단어를 Kepler로 변경하여 sub2에 저장 : "+sub2);
-		byte[] girl = data.getBytes();					//문자열을 girl 문자배열로 변환하여 저장
+		byte[] girl = data.getBytes();					//* 문자열을 girl 문자배열로 변환하여 저장
 		System.out.println("글자수 : "+girl.length);
 		for(byte b:girl) {
 			char k = (char) b;

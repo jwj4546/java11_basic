@@ -9,12 +9,12 @@ public class ClassExam {
 		Class<Person> p2 = Person.class;
 		System.out.println("클래스명 : "+p2.getName());
 		
-		Class p3 = Class.forName("sec4.Person");					//동적 로딩 : 추후 많이 사용함
+		Class p3 = Class.forName("sec4.Person");					//클래스를 동적 로딩 : 추후 많이 사용함
 		System.out.println("클래스명 : "+p3.getName());
 		
 		Person p4 = (Person) p3.newInstance();
 		p4.setName("조우진");
 		p4.setAge(29);
-		System.out.println("인스턴스 정보 : "+p4.toString());
+		System.out.println("인스턴스 정보 : "+p4);
 	}
 }
