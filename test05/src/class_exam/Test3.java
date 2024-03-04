@@ -25,11 +25,12 @@ public class Test3 {
 		list.add(m1);
 		list.add(m2);
 		
-		for(Member mem : list) {												//String => Member(class 로 선언해야함)	
+		for(Member mem : list) {													//String => Member(class 로 선언해야함)	
 			System.out.println("이름 : "+mem.getName());			
 			System.out.println("나이 : "+mem.getAge());
 			System.out.println("주소 : "+mem.getAddress());
 			System.out.println("취미 : "+mem.getHobby());
+			System.out.println();
 		}
 	}
 }

@@ -8,7 +8,7 @@ public class Member {
 	private String hobby;
 	
 	//생성자
-	public Member() { }					//생성자 함수를 선언하지 않으면 메인 함수에서 오류가 발생
+	public Member() { }																			//생성자 함수를 선언하지 않으면 메인 함수에서 오류가 발생
 	
 	public Member(String name, int age, String address, String hobby) {
 		super();
