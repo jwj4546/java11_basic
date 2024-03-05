@@ -2,7 +2,7 @@ package sec4;
 
 import java.util.Stack;
 
-//스택(Stack) : 탑 같이 입력할 때는 쌓아 올려지고, 출력할 때는 반대로 맨 마지막에 입력한 가장 위에 입력된 
+//스택(Stack) : 탑 같이 입력할 때는 쌓아 올려지고, 출력할 때는 반대로 맨 마지막에 입력한 가장 위에 입력된 데이터부터 출력된다. 
 //LIFO(Last In First Out) - 후입선출
 public class StackExam {
 	public static void main(String[] args) {
